@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Percentage Finder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;1,300;1,400&family=Nunito+Sans:wght@200&family=Oswald:wght@200;600&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Ubuntu:ital@1&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to Find your Grade :)</h1>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading">
+
+                <p class="p-1">Student <br> Grade <br> Calculator</p>
+            </div>
+            
+            
+            <div class="form__wrap">
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="web_design" placeholder="WEB DEVELOPEMNT" required>
+                </div>
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="python" placeholder="PYTHON" required>
+                </div>
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="java" placeholder="JAVA" required>
+                </div>
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="javaScript" placeholder="JAVASCRIPT" required>
+                </div>
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="cPP" placeholder="C++" required>
+                </div>
+                <div class="form_input">
+
+                    <input type="text" class="input input_text" id="Computer_networks" placeholder="COMPUTER NETWORKING" required>
+                </div>
+                <div class="form_input">
+
+                    <button class="btn" onclick="calc(); reset();">Show Percentage ( % )</button>
+                </div>
+                <div class="form_input">
+
+                    <p id="showdata"> </p>
+                </div>
+
+    
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
